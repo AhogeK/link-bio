@@ -9,8 +9,8 @@
 
 ## Directory structure
 
-link-bio
-├── README.md
-├── images # images
-├── index.css # style sheets
-└── index.html # entry point
+link-bio<br>
+├── README.md<br>
+├── images &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# images<br>
+├── index.css &nbsp;&nbsp;# style sheets<br>
+└── index.html # entry point<br>
