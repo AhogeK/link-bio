@@ -6,7 +6,7 @@ body, html {
 }
 
 body {
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(./images/bg01.jpeg) repeat center center fixed;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(./images/bg01.jpeg) no-repeat center center fixed;
   background-size: cover;
 }
 
@@ -15,7 +15,6 @@ main {
 }
 
 #vanta {
-  z-index: -1;
   position: absolute;
   left: 0;
   right: 0;
@@ -25,7 +24,7 @@ main {
 }
 
 video {
-  z-index: -1;
+  z-index: -10;
   position: absolute;
   left: 0;
   top: 0;
