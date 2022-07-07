@@ -25,8 +25,14 @@
         cohesion: 5.00,
         quantity: 2.00,
         colorMode: "lerpGradient"
-      });
-    });
+      })
+
+      setTimeout(() => {
+        const main = document.querySelector('main')
+        main.style.opacity = 1
+        main.style.filter = 'blur(0px)'
+      }, 1000)
+    })
   </script>
 </head>
 <body>
