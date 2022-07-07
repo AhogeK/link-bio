@@ -4,8 +4,25 @@
   <meta charset="UTF-8">
   <title>AhogeK - Links</title>
   <link href="./index.css" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.halo.min.js"></script>
+  <script>
+    window.addEventListener('DOMContentLoaded', () => {
+      VANTA.HALO({
+        el: "#vanta",
+        mouseControls: true,
+        touchControls: true,
+        gyroControls: false,
+        minHeight: 200.00,
+        minWidth: 200.00,
+        scale: 1.00,
+        scaleMobile: 1.00
+      });
+    });
+  </script>
 </head>
 <body>
+<div id="vanta"></div>
 <main>
   <header>
     <img alt="avatar" src="./images/ahogek.png">
@@ -45,5 +62,4 @@
   </ul>
 </main>
 </body>
-<script src="./index.js"></script>
 </html>
