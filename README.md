@@ -19,4 +19,4 @@ link-bio
 
 ## DEMO
 
-[http://ahogek.cn](http://ahogek.cn)
+[http://link.ahogek.com](http://link.ahogek.com)
