@@ -5,34 +5,34 @@
   <meta content="width=device-width, initial-scale=1" name="viewport">
   <title>AhogeK - Links</title>
   <link href="./index.css" rel="stylesheet">
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.birds.min.js"></script>
+  <script src="js/three.min.js"></script>
+  <script src="js/vanta.birds.min.js"></script>
   <script>
-    window.addEventListener('DOMContentLoaded', () => {
-      VANTA.BIRDS({
-        el: "#vanta",
-        mouseControls: true,
-        touchControls: true,
-        gyroControls: true,
-        minHeight: 200.00,
-        minWidth: 200.00,
-        scale: 1.00,
-        scaleMobile: 1.00,
-        backgroundAlpha: 0.0,
-        wingSpan: 40.00,
-        separation: 100.00,
-        alignment: 77.00,
-        cohesion: 5.00,
-        quantity: 2.00,
-        colorMode: "lerpGradient"
-      })
+      window.addEventListener('DOMContentLoaded', () => {
+          VANTA.BIRDS({
+              el: "#vanta",
+              mouseControls: true,
+              touchControls: true,
+              gyroControls: true,
+              minHeight: 200.00,
+              minWidth: 200.00,
+              scale: 1.00,
+              scaleMobile: 1.00,
+              backgroundAlpha: 0.0,
+              wingSpan: 40.00,
+              separation: 100.00,
+              alignment: 77.00,
+              cohesion: 5.00,
+              quantity: 2.00,
+              colorMode: "lerpGradient"
+          })
 
-      setTimeout(() => {
-        const main = document.querySelector('main')
-        main.style.opacity = 1
-        main.style.filter = 'blur(0px)'
-      }, 1000)
-    })
+          setTimeout(() => {
+              const main = document.querySelector('main')
+              main.style.opacity = 1
+              main.style.filter = 'blur(0px)'
+          }, 1000)
+      })
   </script>
 </head>
 <body>
