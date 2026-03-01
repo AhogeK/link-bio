@@ -81,7 +81,9 @@ ul > li {
   border-radius: 10em;
   padding: 1em;
   margin: 1.4em 0;
-  box-shadow: 0 2px 8px 0 rgb(28 32 93 / 24%)
+  box-shadow: 0 2px 8px 0 rgb(28 32 93 / 24%);
+  min-height: 52px;
+  box-sizing: border-box;
 }
 
 ul > li > a {
@@ -99,4 +101,13 @@ a {
 
 ul > li > a > img {
   width: 20px;
+  height: 20px;
+  object-fit: contain;
+}
+
+ul > li > a > img[alt="nowcoder"] {
+  width: 70px;
+  height: auto;
+  object-fit: contain;
+  transform: scale(1.2);
 }
